@@ -55,6 +55,7 @@ struct VideoView: UIViewRepresentable {
 
         let webView = WKWebView(frame: .zero, configuration: config)
         webView.scrollView.isScrollEnabled = true
+//        webView.customUserAgent = "userAgent"
         return webView
     }
 
